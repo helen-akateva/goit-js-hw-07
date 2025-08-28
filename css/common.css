@@ -11,12 +11,11 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-ul {
+ul{
   margin: 0;
-  padding: 0;
-  list-style: none;
+    padding: 0;
+    list-style: none;
 }
-
 h2 {
   font-weight: 600;
   font-size: 24px;
@@ -42,20 +41,21 @@ li {
   background-color: #ffffff;
   border-radius: 8px;
   width: 440px;
-  border: 1px solid #f6f6fe;
 }
 
 .item {
   background-color: #f6f6fe;
   border-radius: 8px;
+  border: 1px solid #f6f6fe;
   padding: 16px;
   min-width: 392px;
   height: 100%;
-  border: 1px solid #f6f6fe;
+  
 }
 
 .item ul {
   margin-top: 16px;
+ 
 }
 
 .item ul li {
