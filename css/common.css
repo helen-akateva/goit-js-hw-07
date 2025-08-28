@@ -11,10 +11,10 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-ul{
+ul {
   margin: 0;
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 h2 {
   font-weight: 600;
@@ -50,12 +50,10 @@ li {
   padding: 16px;
   min-width: 392px;
   height: 100%;
-  
 }
 
 .item ul {
   margin-top: 16px;
- 
 }
 
 .item ul li {
@@ -67,4 +65,17 @@ li {
 
 .item ul li:last-child {
   margin-bottom: 0;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.gallery img {
+  display: block;
+  width: 360px;
+  height: 300px;
 }
