@@ -25,7 +25,7 @@ const images = [
   },
 ];
 
-function creatListItems(images) {
+function createListItems(images) {
   return images
     .map((item) => {
       return `<li><img src="${item.url}" alt="${item.alt}" /></li>`;
@@ -33,4 +33,4 @@ function creatListItems(images) {
     .join("");
 }
 const listEl = document.querySelector(`.gallery`);
-listEl.innerHTML = creatListItems(images);
+listEl.insertAdjacentHTML("beforeend", createListItems(images));
