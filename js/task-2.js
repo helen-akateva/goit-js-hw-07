@@ -32,5 +32,7 @@ function createListItems(images) {
     })
     .join("");
 }
+
 const listEl = document.querySelector(`.gallery`);
+
 listEl.insertAdjacentHTML("beforeend", createListItems(images));
